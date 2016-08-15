@@ -4,6 +4,8 @@ import android.os.Bundle;
 
 import com.oasis.studyup.base.BaseActivity;
 
+import hugo.weaving.DebugLog;
+
 /**
  * Launch Activity
  */
@@ -14,6 +16,7 @@ public class SplashActivity extends BaseActivity {
 
     }
 
+    @DebugLog
     @Override
     protected int getLayoutID() {
         return R.layout.activity_splash;
