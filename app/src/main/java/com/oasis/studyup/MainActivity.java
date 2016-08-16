@@ -9,7 +9,7 @@ import hugo.weaving.DebugLog;
 /**
  * Launch Activity
  */
-public class SplashActivity extends BaseActivity {
+public class MainActivity extends BaseActivity {
 
     @Override
     protected void init(Bundle savedInstanceState) {
@@ -19,6 +19,6 @@ public class SplashActivity extends BaseActivity {
     @DebugLog
     @Override
     protected int getLayoutID() {
-        return R.layout.activity_splash;
+        return R.layout.activity_main;
     }
 }
